@@ -1,23 +1,31 @@
-import logo from './logo.svg';
+import { useState, useMemo } from 'react';
+
 import './App.css';
+import LeftNav from './LeftNav';
+import About from './About';
+import Projects from './Projects';
+import Contact from './Contact';
+import Intro from './Intro';
 
 function App() {
+  const [page, setPage] = useState('intro');
+
+  const ui = useMemo(() => {
+    if (page === 'intro') {
+      return <Intro />;
+    } else if (page === 'about') {
+      return <About />;
+    } else if (page === 'contact') {
+      return <Contact />;
+    } else if (page === 'projects') {
+      return <Projects />;
+    }
+  });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <LeftNav />
+      <div className='main'>{ui}</div>
     </div>
   );
 }

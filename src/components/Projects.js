@@ -45,7 +45,7 @@ const Projects = () => {
             <p>HTML, CSS, React</p>
           </li>
           <li>
-            Calculator
+            Calculator-
             <span>
               <a
                 target='_black'
@@ -79,7 +79,7 @@ const Projects = () => {
             </span>
           </li> */}
           <li>
-            Smart-brain
+            Smart-brain-
             <span>
               <a
                 target='_black'

@@ -16,13 +16,14 @@ const Nav = ({ setPage }) => {
             <h3 onClick={() => setPage('intro')}>Intro</h3>
           </div>
           <div className='p-nav'>
+            <h3 onClick={() => setPage('projects')}>Projects</h3>
+          </div>
+          <div className='p-nav'>
             <h3 onClick={() => setPage('about')}>About Me</h3>
           </div>
+
           <div className='p-nav'>
             <h3 onClick={() => setPage('contact')}>Contact</h3>
-          </div>
-          <div className='p-nav'>
-            <h3 onClick={() => setPage('projects')}>Projects</h3>
           </div>
         </div>
         <DropDown setPage={setPage} />

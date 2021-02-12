@@ -1,5 +1,5 @@
 .page {
-  color: #d9b08c;
+  color: #edf5e1;
   display: grid;
   grid-template-rows: 1fr 1fr 10fr 1fr;
   height: 100%;
@@ -7,6 +7,9 @@
 }
 
 .intro {
+  color: #2c3531;
+  background-size: cover;
+  background-position: center;
   animation: fadein 2s;
 }
 
@@ -24,6 +27,7 @@
 }
 
 .inner {
+  display: flexbox;
   height: 100%;
   text-align: left;
   grid-row: 3/4;
@@ -38,6 +42,32 @@
   color: #2c3531;
 }
 
+.mtn {
+  opacity: 0.5;
+}
+
+.prof-pic {
+  z-index: -1;
+  position: absolute;
+  border-radius: 500px;
+  margin-left: 20vw;
+  margin-top: 40vh;
+  width: 500px;
+  justify-self: center;
+}
+
+.contact {
+  margin-left: 5vw;
+}
+
+p {
+  text-indent: 50px;
+}
+.about {
+  width: 600px;
+  margin-left: 10%;
+}
+
 @keyframes fadein {
   from {
     opacity: 0;
@@ -47,9 +77,31 @@
   }
 }
 
+@media only screen and (min-width: 1000px) {
+  .prof-pic {
+    width: 700px;
+  }
+}
+
 @media only screen and (max-width: 500px) {
   .title {
     font-size: 2rem;
+  }
+
+  .about {
+    width: 200px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .prof-pic {
+    width: 200px;
   }
 
   .header {

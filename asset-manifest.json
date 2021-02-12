@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/alexander-spencer/static/css/main.3417bd3c.chunk.css",
+    "main.js": "/alexander-spencer/static/js/main.e0813545.chunk.js",
+    "main.js.map": "/alexander-spencer/static/js/main.e0813545.chunk.js.map",
+    "runtime-main.js": "/alexander-spencer/static/js/runtime-main.bc36a094.js",
+    "runtime-main.js.map": "/alexander-spencer/static/js/runtime-main.bc36a094.js.map",
+    "static/js/2.b7bc0647.chunk.js": "/alexander-spencer/static/js/2.b7bc0647.chunk.js",
+    "static/js/2.b7bc0647.chunk.js.map": "/alexander-spencer/static/js/2.b7bc0647.chunk.js.map",
+    "static/js/3.637923d6.chunk.js": "/alexander-spencer/static/js/3.637923d6.chunk.js",
+    "static/js/3.637923d6.chunk.js.map": "/alexander-spencer/static/js/3.637923d6.chunk.js.map",
+    "index.html": "/alexander-spencer/index.html",
+    "static/css/main.3417bd3c.chunk.css.map": "/alexander-spencer/static/css/main.3417bd3c.chunk.css.map",
+    "static/js/2.b7bc0647.chunk.js.LICENSE.txt": "/alexander-spencer/static/js/2.b7bc0647.chunk.js.LICENSE.txt",
+    "static/media/a-z.0ff74808.jpg": "/alexander-spencer/static/media/a-z.0ff74808.jpg",
+    "static/media/zion2.25f77c94.jpg": "/alexander-spencer/static/media/zion2.25f77c94.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bc36a094.js",
+    "static/js/2.b7bc0647.chunk.js",
+    "static/css/main.3417bd3c.chunk.css",
+    "static/js/main.e0813545.chunk.js"
+  ]
+}

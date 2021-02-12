@@ -1,3 +1,5 @@
+import './components.css';
+
 const About = () => {
   return (
     <div className='page'>

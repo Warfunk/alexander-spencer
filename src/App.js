@@ -1,11 +1,11 @@
 import { useState, useMemo } from 'react';
 
 import './App.css';
-import LeftNav from './LeftNav';
-import About from './About';
-import Projects from './Projects';
-import Contact from './Contact';
-import Intro from './Intro';
+import Nav from './components/nav/Nav';
+import About from './components/About';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import Intro from './components/Intro';
 
 function App() {
   const [page, setPage] = useState('intro');
@@ -13,18 +13,21 @@ function App() {
   const ui = useMemo(() => {
     if (page === 'intro') {
       return <Intro />;
-    } else if (page === 'about') {
+    }
+    if (page === 'about') {
       return <About />;
-    } else if (page === 'contact') {
+    }
+    if (page === 'contact') {
       return <Contact />;
-    } else if (page === 'projects') {
+    }
+    if (page === 'projects') {
       return <Projects />;
     }
-  });
+  }, [page]);
 
   return (
     <div className='App'>
-      <LeftNav />
+      <Nav page={page} setPage={setPage} />
       <div className='main'>{ui}</div>
     </div>
   );

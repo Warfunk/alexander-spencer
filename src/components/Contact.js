@@ -1,3 +1,5 @@
+import './components.css';
+
 const Contact = () => {
   return (
     <div className='page'>

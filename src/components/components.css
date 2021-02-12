@@ -1,0 +1,63 @@
+.page {
+  color: #d9b08c;
+  display: grid;
+  grid-template-rows: 1fr 1fr 10fr 1fr;
+  height: 100%;
+  grid-template-columns: 1fr 9fr 1fr;
+}
+
+.intro {
+  animation: fadein 2s;
+}
+
+.title {
+  text-align: left;
+  font-size: 3rem;
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+
+.header {
+  margin-top: 3%;
+  margin-left: 8%;
+  font-size: 2em;
+}
+
+.inner {
+  height: 100%;
+  text-align: left;
+  grid-row: 3/4;
+  grid-column: 2/3;
+}
+
+.list {
+  margin-left: 14%;
+}
+
+.link {
+  color: #2c3531;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .header {
+    font-size: 1rem;
+  }
+
+  .list {
+    font-size: 1rem;
+    margin-left: 3%;
+  }
+}

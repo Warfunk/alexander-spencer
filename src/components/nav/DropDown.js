@@ -7,6 +7,22 @@ const DropDown = ({ setPage }) => {
     display: style,
   };
 
+  const changePage = (page) => {
+    if (page === 'intro') {
+      setPage('intro');
+      setDisplay('none');
+    } else if (page === 'projects') {
+      setPage('projects');
+      setDisplay('none');
+    } else if (page === 'contact') {
+      setPage('contact');
+      setDisplay('none');
+    } else if (page === 'about') {
+      setPage('about');
+      setDisplay('none');
+    }
+  };
+
   const toggleNav = () => {
     if (style === 'none') {
       setDisplay('block');
@@ -26,16 +42,16 @@ const DropDown = ({ setPage }) => {
       </div>
       <div style={divStyle} className='dd-nav'>
         <div className='p-nav'>
-          <h3 onClick={() => setPage('intro')}>Intro</h3>
+          <h3 onClick={() => changePage('intro')}>Intro</h3>
         </div>
         <div className='p-nav'>
-          <h3 onClick={() => setPage('projects')}>Projects</h3>
+          <h3 onClick={() => changePage('projects')}>Projects</h3>
         </div>
         <div className='p-nav'>
-          <h3 onClick={() => setPage('about')}>About Me</h3>
+          <h3 onClick={() => changePage('about')}>About Me</h3>
         </div>
         <div className='p-nav'>
-          <h3 onClick={() => setPage('contact')}>Contact</h3>
+          <h3 onClick={() => changePage('contact')}>Contact</h3>
         </div>
       </div>
     </div>

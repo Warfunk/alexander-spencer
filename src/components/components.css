@@ -63,8 +63,9 @@
 p {
   text-indent: 50px;
 }
+
 .about {
-  width: 600px;
+  max-width: 600px;
   margin-left: 10%;
 }
 
@@ -86,10 +87,6 @@ p {
 @media only screen and (max-width: 500px) {
   .title {
     font-size: 2rem;
-  }
-
-  .about {
-    width: 200px;
   }
 
   h4 {

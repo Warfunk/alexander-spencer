@@ -48,9 +48,9 @@
 
 .prof-pic {
   z-index: -1;
-  position: absolute;
+  position: fixed;
   border-radius: 500px;
-  margin-left: 20vw;
+  margin-left: 30%;
   margin-top: 40vh;
   width: 500px;
   justify-self: center;
@@ -62,6 +62,10 @@
 
 p {
   text-indent: 50px;
+}
+
+a {
+  color: #2c3531;
 }
 
 .about {

@@ -21,7 +21,7 @@ const Projects = () => {
                 Resource that displays all of the Montana ski resorts. Allows
                 users to compare key resort stats and 3 day forecast using the
                 weatherapi.com. Users can register to save their specific user
-                interface to login daily and look at forecasts.
+                interface to login daily and view forecasts.
               </p>
               <p>HTML, CSS, React, Node, Express, PostgreSQL, Tachyons</p>
             </span>

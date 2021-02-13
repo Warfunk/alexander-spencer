@@ -16,7 +16,7 @@ const About = () => {
           Geography. Shortly after graduation, I moved to Montana to enjoy the
           great Rocky Mountains and everything they have to offer. Working in
           the service industry, I was able to work hard in the evenings and take
-          advantage of the amazing environment surronding me during the day.
+          advantage of the amazing environment surrounding me during the day.
         </p>
         <p>
           In 2020, I decided it was time to pursue a different dream and find a
@@ -26,15 +26,15 @@ const About = () => {
           like a great place to start. This is when I found freecodecamp.org and
           began to learn HTML and CSS. Once that course was finished, Python
           came next. While learning Python, more and more questions came up as
-          to how everthing was working. It became clear a computer science
+          to how everything was working. It became clear a computer science
           foundation would be greatly beneficial. Next came the Harvard CS50
           course. This course was absolutely amazing and really made me fall in
           love with problem solving aspect of programming. After completing the
-          course, Javascript seemed like the right path, rather than returning
-          to Python. I have been working hard to learn Javascript and web
+          course, JavaScript seemed like the right path, rather than returning
+          to Python. I have been working hard to learn JavaScript and web
           development since finishing CS50 in September 2020. Today, I am a
           proficient web developer ready to pursue my new career and continue to
-          learn about the never ending world of programming!{' '}
+          learn about the never-ending world of programming!{' '}
         </p>
       </div>
     </div>

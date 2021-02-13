@@ -27,12 +27,12 @@ const About = () => {
           came next. While learning Python, more and more questions came up as
           to how everthing was working. It became clear a computer science
           foundation would be greatly beneficial. Next came the free Harvard
-          CS50 course. This course was absolutley amazing and really made me
+          CS50 course. This course was absolutely amazing and really made me
           fall in love with problem solving aspect of programming. After
           completing the course, Javascript seemed like the right path, rather
           than returning to Python. I have been working hard to learn Javascript
           and web development since finishing CS50 in September 2020. Today, I
-          am a profecient web developer ready to pursue my new career and
+          am a proficient web developer ready to pursue my new career and
           continue to learn about the never ending world of programming!{' '}
         </p>
       </div>

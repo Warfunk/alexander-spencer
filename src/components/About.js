@@ -8,9 +8,10 @@ const About = () => {
       <img src={az} className='prof-pic mtn' alt='alex on top of big sky' />
       <div className='inner about'>
         <p>
-          My name is Alex Spencer. I was born into this beautiful world in 1988
-          and raised in Williamsburg, VA. In 2007, I began attending James
-          Madison University. Four years later I left with a degree in Biology,
+          My name is Alex Spencer. I was born and raised in Williamsburg, VA.
+          Growing up, I was active in sports, individual and team, as well as in
+          academics and music. In 2007, I began attending James Madison
+          University. Four years later I left with a degree in Biology,
           concentration in Ecology and Environmental Science, and a minor in
           Geography. Shortly after graduation, I moved to Montana to enjoy the
           great Rocky Mountains and everything they have to offer. Working in
@@ -26,14 +27,14 @@ const About = () => {
           began to learn HTML and CSS. Once that course was finished, Python
           came next. While learning Python, more and more questions came up as
           to how everthing was working. It became clear a computer science
-          foundation would be greatly beneficial. Next came the free Harvard
-          CS50 course. This course was absolutely amazing and really made me
-          fall in love with problem solving aspect of programming. After
-          completing the course, Javascript seemed like the right path, rather
-          than returning to Python. I have been working hard to learn Javascript
-          and web development since finishing CS50 in September 2020. Today, I
-          am a proficient web developer ready to pursue my new career and
-          continue to learn about the never ending world of programming!{' '}
+          foundation would be greatly beneficial. Next came the Harvard CS50
+          course. This course was absolutely amazing and really made me fall in
+          love with problem solving aspect of programming. After completing the
+          course, Javascript seemed like the right path, rather than returning
+          to Python. I have been working hard to learn Javascript and web
+          development since finishing CS50 in September 2020. Today, I am a
+          proficient web developer ready to pursue my new career and continue to
+          learn about the never ending world of programming!{' '}
         </p>
       </div>
     </div>

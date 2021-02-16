@@ -12,10 +12,10 @@ const Contact = () => {
         <h4>
           LinkedIn:{' '}
           <a
-            href='https://www.linkedin.com/in/alexander-spencer-b7167419b/'
+            href='https://www.linkedin.com/in/alexander-s-b7167419b/'
             target='_blank'
           >
-            https://www.linkedin.com/in/alexander-spencer-b7167419b/
+            https://www.linkedin.com/in/alexander-s-b7167419b/
           </a>
         </h4>
         <h4>

@@ -35,7 +35,7 @@ const Nav = ({ setPage }) => {
           </div>
           <div className='s2'>
             <a
-              href='https://www.linkedin.com/in/alexander-spencer-b7167419b/'
+              href='https://www.linkedin.com/in/alexander-s-b7167419b/'
               target='_blank'
             >
               <img src={linkedin} alt='github symbol' className='li' />

@@ -29,10 +29,10 @@ const About = () => {
           to how everything was working. It became clear a computer science
           foundation would be greatly beneficial. Next came the Harvard CS50
           course. This course was absolutely amazing and really made me fall in
-          love with problem solving aspect of programming. After completing the
-          course, JavaScript seemed like the right path, rather than returning
-          to Python. I have been working hard to learn JavaScript and web
-          development since finishing CS50 in September 2020. Today, I am a
+          love with the problem solving aspect of programming. After completing
+          the course, JavaScript seemed like the right path, rather than
+          returning to Python. I have been working hard to learn JavaScript and
+          web development since finishing CS50 in September 2020. Today, I am a
           proficient web developer ready to pursue my new career and continue to
           learn about the never-ending world of programming!{' '}
         </p>

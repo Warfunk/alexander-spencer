@@ -12,6 +12,7 @@ const Contact = () => {
         <h4>
           LinkedIn:{' '}
           <a
+            rel='noopener'
             href='https://www.linkedin.com/in/alexander-s-b7167419b/'
             target='_blank'
           >
@@ -20,7 +21,7 @@ const Contact = () => {
         </h4>
         <h4>
           Github:{'  '}
-          <a href='https://github.com/warfunk' target='_blank'>
+          <a rel='noopener' href='https://github.com/warfunk' target='_blank'>
             https://github.com/warfunk
           </a>
         </h4>

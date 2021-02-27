@@ -11,7 +11,8 @@ const Projects = () => {
             Montana Ski Resorts-
             <span>
               <a
-                target='_black'
+                rel='noopener'
+                target='_blank'
                 href='https://warfunk.github.io/mt-ski-resorts/'
                 className='link'
               >
@@ -30,7 +31,8 @@ const Projects = () => {
             Restaurant Site-
             <span>
               <a
-                target='_black'
+                rel='noopener'
+                target='_blank'
                 href='https://warfunk.github.io/warfields-feast/'
                 className='link'
               >
@@ -48,7 +50,8 @@ const Projects = () => {
             Calculator-
             <span>
               <a
-                target='_black'
+                rel='noopener'
+                target='_blank'
                 href='https://warfunk.github.io/calculator/'
                 className='link'
               >
@@ -82,7 +85,8 @@ const Projects = () => {
             Smart-brain-
             <span>
               <a
-                target='_black'
+                rel='noopener'
+                target='_blank'
                 href='https://warfunks-smart-brain.herokuapp.com'
                 className='link'
               >

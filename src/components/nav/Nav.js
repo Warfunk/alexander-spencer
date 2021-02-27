@@ -29,12 +29,13 @@ const Nav = ({ setPage }) => {
         <DropDown setPage={setPage} />
         <div className='social'>
           <div className='s1'>
-            <a href='https://github.com/warfunk' target='_blank'>
+            <a rel='noopener' href='https://github.com/warfunk' target='_blank'>
               <img src={ghl} alt='github symbol' className='gh' />
             </a>
           </div>
           <div className='s2'>
             <a
+              rel='noopener'
               href='https://www.linkedin.com/in/alexander-s-b7167419b/'
               target='_blank'
             >

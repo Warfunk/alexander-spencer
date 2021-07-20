@@ -33,8 +33,8 @@ const About = () => {
           the course, JavaScript seemed like the right path, rather than
           returning to Python. I have been working hard to learn JavaScript and
           web development since finishing CS50 in September 2020. Today, I am a
-          proficient web developer ready to pursue my new career and continue to
-          learn about the never-ending world of programming!{' '}
+          UI Developer working for DataXstream since April 1st 2021 hoping to
+          continue developing my career in the software industry.{' '}
         </p>
       </div>
     </div>

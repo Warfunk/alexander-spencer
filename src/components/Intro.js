@@ -7,7 +7,9 @@ const Intro = () => {
       <img src={zion} className='prof-pic' alt='alex in zion' />
       <h1 className='title'>Alexander Warfield Spencer</h1>
       <div className='inner'>
-        <h2 className='header'>Software Developer, ready to join the team.</h2>
+        <h2 className='header'>
+          Snowboard and outdoor affecianado and self taught software developer
+        </h2>
       </div>
     </div>
   );

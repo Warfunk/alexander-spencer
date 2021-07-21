@@ -8,7 +8,7 @@ const Intro = () => {
       <h1 className='title'>Alexander Warfield Spencer</h1>
       <div className='inner'>
         <h2 className='header'>
-          Snowboard and outdoor affecianado and self taught software developer
+          Self taught software developer and snowboard afficianado.
         </h2>
       </div>
     </div>

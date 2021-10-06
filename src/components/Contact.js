@@ -5,7 +5,6 @@ const Contact = () => {
     <div className='page'>
       <div className='title'>Contact</div>
       <div className='inner contact'>
-        <h4>108 Bermuda Circle </h4>
         <h4>Williamsburg VA, 23185</h4>
         <h4>Cell: (757)-871-1541</h4>
         <h4>Email: spenceaw@gmail.com</h4>
